@@ -1,0 +1,15 @@
+{
+  "name": "express_first",
+  "version": "1.0.0",
+  "description": "this module tells about express basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ashish Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

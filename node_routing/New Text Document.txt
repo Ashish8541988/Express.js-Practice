@@ -1,0 +1,48 @@
+Express.js is a web application framework that provide you with a simple API to buid websites ,web apps and back ends.
+
+benifits of express js:
+1. We can reduce the code length as compersion to nodeJs
+
+
+Script in package.Json {
+we can make our own script and through this script we can ran any commond on the web}    
+
+https Method:- GET, POST, PUT, PATCH,DELETE
+POST :- to feed the data in server
+PUT :- TO upload photo or data in server
+Patch :- To update the data in server
+
+
+Version :-
+4.18.2
+
+4 :- major update (Don't update this because your code may not run)
+18 :- recommended update (you can update version but first you have to look what functionlity will change.)
+2 :- Minor update (There will fix some small issue)
+
+Restfull api :- always follow Server and Clint arcitucher.
+
+SSR (server side rendring):- When we our server send a html doc. as a response
+
+JSON :(javaScript object ..) :- It is key value formte of data
+
+#Middleware :- Middleware just a function which execute at every request of clint.
+->middleware is a function that have access to the request object , the response object and the next middleware function in the application's request cycle.
+->Middleware can do.
+1. execute any code.
+2. Make chages to request and response objects.
+3. End the request response cycle.
+4. Call the next middleware function in the stack.
+
+#Headears:-  HTTP headers are an important part of the API request and response as they repersent the meta-data associated with the API req and response.
+-> Headers carry information for the request and response body.
+
+#Status Codes:- HTTP response status codes indicate whether a specific HTTP request has been successfully completed.
+
+->information response(100-199)
+->Successful response(200-299)
+->Redirection message(300-399)
+->Client error response(400-499)
+->Server error response(500-599)
+
+                                                                                                                                                                                                                
